@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body{
+    background-color: rgb(255, 248, 240);
+    font-family: "Indie Flower", 'Courier New', Courier, monospace;
+}
+
+.legend{
+    background-image: url('/images/mnaka-header.jpg');
+    padding: 1.5%;
+}
+
+ul{
+    list-style: none;
+}
+.title{
+    float: right;
+    font-size: 40px;
+    font-weight: 800;
+    color:rgb(253, 246, 237)
+}
+
+li{
+    display: inline-flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+:hover a{
+    color:ghostwhite;
+    font-weight: 600;
+}
